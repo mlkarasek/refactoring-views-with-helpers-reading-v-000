@@ -1,2 +1,5 @@
 module AuthorsHelper
-end 
+  def author(text)
+  content_for :author, text
+end
+end
